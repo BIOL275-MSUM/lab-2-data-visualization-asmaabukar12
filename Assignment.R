@@ -32,7 +32,7 @@ ggplot(data = penguins) +
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color= species, shape= island)) + 
   facet_wrap(~ species, nrow = 1)
  
-#question 13c
+#question 13c 
 ggplot(data = penguins) + 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color=species, shape= island)) + 
   facet_grid(species ~island)
