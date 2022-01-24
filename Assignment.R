@@ -9,7 +9,7 @@ penguins
 #question 10b
 ggplot(data=penguins)
 # Theres a grey box
-View(penguins)
+View(penguins) 
 
 #question 10c
 ggplot(data = penguins) + 
